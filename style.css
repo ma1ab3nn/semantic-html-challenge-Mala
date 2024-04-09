@@ -1,0 +1,32 @@
+/* CSS files add styling rules to your content */
+.bands {
+  table-layout: fixed;
+  width: 100%;
+  border-color: #800080;
+
+}
+
+.bands tr:nth-child(even) {
+  background: #ff33cc;
+}
+
+.bands tr:nth-child(odd) {
+  background: #e495e4;
+}
+
+
+body {
+  font-family: "Rock Salt ", "Helvetica Neue", "Benton Sans", , helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+
+
+td {
+  text-align: center;
+}
